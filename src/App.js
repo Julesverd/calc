@@ -8,8 +8,9 @@ function App() {
   const ops = ['/', '*', '+', '-', '.'];
 
   const updateCalc = value => {
-    if (
-      ops.includes(value) && calc === '' ||
+    // eslint-disable-next-line
+    if ( 
+      ops.includes(value) && calc === '' || 
       ops.includes(value) && ops.includes(calc.slice(-1))
     ) {
       return;
@@ -37,10 +38,11 @@ function App() {
     return digits;
   }
 
+  
   const calculate = () => {
     setCalc(eval(calc).toString());
   }
-
+  // eslint-disable-next-line
   const deleteLast = () => {
     if (calc == '') {
       return;
