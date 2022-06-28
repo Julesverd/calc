@@ -1,5 +1,5 @@
 :root {
-  --primary: rgb(247, 136, 9);
+  --primary: rgb(6, 231, 137);
   --secondary: rgba(0, 142, 236, 0.87);
   --dark: #131313;
   --light: #fff;
@@ -14,7 +14,7 @@
 
 body {
   margin: 0;
-  background: linear-gradient(to right, #fff, #bf0feb);
+  background: linear-gradient(to right, rgb(31, 136, 235), #3af8af);
 }
 
 .App {
@@ -28,10 +28,10 @@ body {
 .calculator {
   width: 100%;
   max-width: 400px;
-  background-color:#fff;
+  background-color:rgb(24, 224, 107);
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 2px 64px rgba(--dark);
+  box-shadow: 0 4px 84px rgba(--dark);
 }
 
 .display {
